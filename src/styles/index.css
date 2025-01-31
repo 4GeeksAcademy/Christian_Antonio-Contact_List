@@ -1,3 +1,23 @@
-/* 
-    General Styles
-*/
+
+body{
+    background-image:linear-gradient(rgba(59, 58, 58, 0.267), rgba(61, 60, 60, 0.315)), url("https://png.pngtree.com/background/20240413/original/pngtree-d-rendering-of-a-stylish-office-space-with-grey-slat-wall-picture-image_8477340.jpg");
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* La imagen estará centrada */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* La imagen permanece fija al hacer scroll */
+    background-color: rgba(36, 36, 36, 0.808);
+    background-blend-mode: overlay;
+}
+.card-text{
+    color: rgb(54, 54, 54);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.767);
+    margin-top: 2%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
+
+.button1 {
+    background-color: rgb(97, 83, 81);
+}
